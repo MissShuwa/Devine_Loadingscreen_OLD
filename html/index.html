@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script   src="https://code.jquery.com/jquery-3.6.1.min.js"   integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://unpkg.com/youtube-background/jquery.youtube-background.min.js"></script>
+    <title>Devine Loadingscreen</title>
+</head>
+<body id="ls">
+    <div class="ls">
+        <div class="ls__panel left">
+            <img src="./assets/img/panel_lines.svg" class="ls__panel_lines top">
+            <span>About us</span>
+            <h1>About us</h1>
+            <h1>About us</h1>
+            <span>About us</span>
+            <img src="./assets/img/panel_lines.svg" class="ls__panel_lines bottom">
+        </div>
+        <div class="ls__panel right">
+            <img src="./assets/img/panel_lines.svg" class="ls__panel_lines top">
+            <span>our team</span>
+            <h1>our team</h1>
+            <h1>our team</h1>
+            <span>our team</span>
+            <img src="./assets/img/panel_lines.svg" class="ls__panel_lines bottom">
+        </div>
+        <div class="ls__column left">
+            <div class="ls__column_neverland">
+                <h1 id="servername"></h1>
+                <h2 id="serverdesc"></h2>
+                <div class="ls__column_neverland-bg">
+                    <div class="ls__column_neverland-bg_other"></div>
+                    <div class="ls__column_neverland-bg_lines">
+                        <hr><hr><hr>
+                    </div>
+
+                </div>
+            </div>
+            <div class="ls__column_social" id="socials">
+                <h1>OUR SOCIAL NETWORKS</h1>
+            
+            </div>
+        </div>
+        <div class="ls__column right">
+            <div class="ls__column_teamlist" id="teams">
+                <h1>Team list</h1>
+            </div>
+            <div class="ls__column_changelog" id="changelogs">
+                <h1>CHANGELOG</h1>
+                
+            </div>
+        </div>
+        <div class="ls__logo">
+            <img src="./assets/img/filled-logo.png" id="transparent-logo" class="ls__logo_gray">
+            <div class="ls__logo_bar" id="logobar">
+                <img src="./assets/img/logo.png" id="filled-logo">
+            </div>
+        </div>
+        <div class="ls__loadingbar">
+            <div class="ls__loadingbar_inline">
+                <h1>Your Game is Loading . . .</h1>
+                <div class="ls__loadingbar_inline-line">
+                    <div class="ls__loadingbar_inline-line_other"></div>
+                    <img src="./assets/img/lines.svg" alt="">
+                </div>
+                <h1 id="loading-text">95%</h1>
+            </div>
+            <div class="ls__loadingbar_bar">
+                <div class="ls__loadingbar_bar-line" id="loading-bar"></div>
+            </div>
+        </div>
+        <audio id="music" autoplay>
+            <source id="musicc" src="" tyle="audio/mpeg">
+        </audio>
+
+        <button id="socialone" onclick="social(1)" onmouseover="showInfo(1)"></button>
+        <button id="socialtwo" onclick="social(2)" onmouseover="showInfo(2)"></button>></button>
+        <button id="socialthree" onclick="social(3)" onmouseover="showInfo(3)"></button>></button>
+        <div class="social-info-container">
+            <img src="./assets/img/media/info.png" class="info-icon">
+            <p class="info-text">discord.gg/devine</p>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./assets/js/config.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
